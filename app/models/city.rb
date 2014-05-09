@@ -1,3 +1,3 @@
-class User < ActiveRecord::Base
+class City < ActiveRecord::Base
 
 end
