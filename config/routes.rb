@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   post '/',             to: 'cities#create'
   get '/cities/:id',    to: 'cities#show'
   put '/cities/:id',    to: 'cities#update'
+  delete '/cities/:id', to: 'cities#destroy'
 
 
 

@@ -21,4 +21,15 @@ feature 'CRUD favorites cities' do
     expect(page).to have_content "San Francisco"
 
   end
+
+  scenario 'delete a city from a list of cities' do
+    visit ('/')
+    fill_in "city", with: "Chicago"
+    fill_in "state", with: "IL"
+    click_on 'Submit'
+    click_on "Chicago"
+    click_on "Delete"
+    expect(page).to_not have_content "Chicago"
+
+  end
 end

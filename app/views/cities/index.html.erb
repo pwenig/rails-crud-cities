@@ -8,9 +8,9 @@
 
 <ul>
   <li>
-    <% @cities.each do |city| %></li>
-      <a href="/cities/<%= city.id %>/"><%= city.city %>, <%= city.state %></a>
-    <% end %>
+    <% @cities.each do |city| %>
+     <li><a href="/cities/<%= city.id %>/"><%= city.city %>, <%= city.state %></a></li>
+<% end %>
     </ul>
 
 
