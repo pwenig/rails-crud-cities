@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="758955420">
+    <data-source source="LOCAL" name="Rails rails-crud-cities: development" uuid="d32adde5-964d-41c9-9bf5-ef22aaa83f3a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:rails-crud-cities_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails rails-crud-cities: test" uuid="f328820f-9948-4740-8ea7-45c973fe5e59">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:rails-crud-cities_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails rails-crud-cities: production" uuid="b7170d4a-b194-40bd-a75c-b12af41f7768">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:rails-crud-cities_production</jdbc-url>
+      <user-name>rails-crud-cities</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff8dfebdfe3dfe6dff9df87dfe9dff8dfffdfeedf87dfe9dfe3dffedfe3dfefdff9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
